@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Simulates the exact boot sequence of hermes-construct on Oracle ARM"
 license = "MIT"
+repository = "https://github.com/SuperInstance/lau-hermes-oracle-boot"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
