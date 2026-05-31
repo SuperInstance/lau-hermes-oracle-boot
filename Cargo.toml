@@ -1,0 +1,13 @@
+[package]
+name = "lau-hermes-oracle-boot"
+version = "0.1.0"
+edition = "2021"
+description = "Simulates the exact boot sequence of hermes-construct on Oracle ARM"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+tempfile = "3"
